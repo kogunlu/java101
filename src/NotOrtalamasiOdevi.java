@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Odev1 {
+public class NotOrtalamasiOdevi {
     public static void main(String[] args) {
 
         /* Not Ortalaması Hesaplayan Program
