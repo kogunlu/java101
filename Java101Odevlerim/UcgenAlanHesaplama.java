@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class UcgecAlanHesaplama {
+public class UcgenAlanHesaplama {
     public static void main(String[] args) {
         /*Dik Üçgende Hipotenüs Bulan Program
 Ödev
