@@ -130,6 +130,8 @@ public class BurcBulanProgram {
                     System.out.println("Geçersiz gün girdiniz, programı tekrar başlatarak yeniden veri girişi yapın.");
                 }
                 break;
+            default:
+                System.out.println("Hatalı bir ay girdiniz, programı tekrar başlatarak yeniden veri girişi yapın.");
         }
         System.out.println("Program bitti.");
 
