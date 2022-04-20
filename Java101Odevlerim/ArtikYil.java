@@ -3,7 +3,7 @@ public class ArtikYil {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
-        int year, flag;
+       int year, flag;
 
         System.out.println("Artık yıl olup olmadığını sorgulamak istediğiniz yılı girin: ");
             year = inp.nextInt();
@@ -26,5 +26,5 @@ public class ArtikYil {
             }else{
                 System.out.println(year + " yılı artık yıl değildir.");
             }
+        }
     }
-}
