@@ -11,11 +11,10 @@ import java.util.Scanner;
         int tutar;
 
 
-
-
         while (Try > 0) {
             System.out.print("Kullanıcı adı giriniz: ");
             Username = input.nextLine();
+
 
             System.out.print("Şifrenizi girin: ");
             Password = input.nextLine();
@@ -23,6 +22,8 @@ import java.util.Scanner;
             islemKodu = 0;
 
             if (Username.equals("ogunlu") && Password.equals("findik")) {
+
+                System.out.println("Mevcut bakiyeniz: " + accountBalance + " TL");
 
                 while (islemKodu != 4){
 
@@ -40,7 +41,7 @@ import java.util.Scanner;
 
                             if(accountBalance >= 0){
 
-                                System.out.print("İşlem sonrası bakiyeniz: " + accountBalance);
+                                System.out.print("İşlem sonrası bakiyeniz: " + accountBalance+ " TL");
                                 System.out.println("");
 
 
@@ -55,14 +56,14 @@ import java.util.Scanner;
                             System.out.print("Tutar giriniz: ");
                                 tutar = input.nextInt();
 
-                            while (tutar < 0){
+                            if (tutar < 0){
                                 System.out.print("Tutar negatif olamaz, lütfen geçerli tutar giriniz.");
                                 System.out.println("");
                                 System.out.print("Tutar giriniz: ");
                                 tutar = input.nextInt();
-                            }
+                            }else
                                 accountBalance += tutar;
-                            System.out.println("İşlem sonrası bakinyeiz: " + accountBalance);
+                            System.out.println("İşlem sonrası bakinyeiz: " + accountBalance + " TL");
 
                             }
                         if (islemKodu == 3) {
