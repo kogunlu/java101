@@ -3,6 +3,7 @@ package OgrenciBilgiSistemi;
 public class Main {
     public static void main(String[] args) {
 
+
     Course mat = new Course("Matematik", "MAT", "MAT101");
     Course fiz = new Course("Fizik", "FIZ", "FIZ101");
     Course kim = new Course("Kimya", "KIM", "KIM101");

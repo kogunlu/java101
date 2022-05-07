@@ -13,6 +13,7 @@ public class Course {
         this.code = code;
         this.prefix = prefix;
 
+
        /*  this.noteSinav = 0;
         this.noteSozlu = 0; */
     }

@@ -19,6 +19,7 @@ public class Student {
         calculateLessons();
     }
 
+
     void addBulkExamNoteSinav(int mat, int fizik, int kimya){
 
         if(mat >= 0 && mat <= 100) {
