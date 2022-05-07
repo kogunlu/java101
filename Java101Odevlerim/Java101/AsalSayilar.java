@@ -1,3 +1,5 @@
+package Java101;
+
 public class AsalSayilar {
     public static void main(String[] args) {
 
