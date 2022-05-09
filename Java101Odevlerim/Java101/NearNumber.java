@@ -15,10 +15,6 @@ public class NearNumber {
         System.out.print("Bir sayı giriniz: ");
         int sayi = input.nextInt();
 
-        int nearBig = 0;
-        int nearSmall = 0;
-        int k = 0;
-
         for (int i = 0; i < list.length; i++){
 
        //   System.out.println(list[i]); > Dönen sayıları görmek için yazıldı.
