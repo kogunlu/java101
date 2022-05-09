@@ -11,9 +11,8 @@ public class NearNumber {
         System.out.println(Arrays.toString(list));
 
         Scanner input = new Scanner(System.in);
-        int diziUzunlugu = list.length - 1;
-        System.out.print("Bir sayı giriniz: ");
-        int sayi = input.nextInt();
+            System.out.print("Bir sayı giriniz: ");
+            int sayi = input.nextInt();
 
         for (int i = 0; i < list.length; i++){
 
