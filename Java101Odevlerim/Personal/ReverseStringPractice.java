@@ -6,11 +6,6 @@ import java.util.Scanner;
 public class ReverseStringPractice {
     public static void main(String[] args) {
 
-
-/*     Ödevler
-    1- Cümledeki her kelimenin ilk harfini büyük yazan program  */
-
-
 Scanner input = new Scanner(System.in);
         System.out.print("Cümleyi yazınız: ");
             String sentence = input.nextLine();
