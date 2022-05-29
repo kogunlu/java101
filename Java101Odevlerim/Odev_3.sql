@@ -1,5 +1,4 @@
 SQL Odev_3
-
 1st part
 SELECT country FROM country
 WHERE country LIKE 'A%a';
