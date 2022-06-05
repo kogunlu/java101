@@ -21,7 +21,7 @@ Scanner input = new Scanner(System.in);
         for(int i = charSentence.length-1; i >= 0; i--){
 
                 reverseSentenceChar[k] = charSentence[i];
-                System.out.println(Arrays.toString(reverseSentenceChar));
+               // System.out.println(Arrays.toString(reverseSentenceChar)); ==>>> test için oluşturuldu.
 
                 k++;
         }
