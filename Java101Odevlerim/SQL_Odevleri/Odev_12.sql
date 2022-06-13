@@ -33,8 +33,8 @@ AND replacement_cost =
 4th part
 //payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
 
-SELECT customer_id, SUM(amount) FROM payment
+SELECT COUNT(payment_id), (customer_id) FROM payment
 GROUP BY customer_id
-ORDER BY SUM(amount) DESC;
+ORDER BY COUNT(payment_id) DESC;
 
 
